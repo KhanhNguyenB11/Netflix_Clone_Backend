@@ -1,6 +1,6 @@
 const History = require("../models/History.js");
 const router = require("express").Router();
-const User = require("../models/user.js");
+const User = require("../models/User.js");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 router.post("/register", async (req, res) => {
