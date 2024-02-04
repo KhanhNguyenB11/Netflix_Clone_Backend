@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const User = require("../models/user");
+const User = require("../models/User.js");
 const verify = require("../verifyToken");
 const listRouter = require('./lists');
 const historyRouter = require('./histories');
